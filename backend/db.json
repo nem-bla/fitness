@@ -37,6 +37,82 @@
     {
       "id": 4,
       "message": "Testing 123"
+    },
+    {
+      "id": 5,
+      "message": "Hello there"
+    },
+    {
+      "id": 6,
+      "message": "Testing 102"
+    },
+    {
+      "id": 7,
+      "message": "Hello"
+    },
+    {
+      "id": 8,
+      "message": "Hellowz"
+    },
+    {
+      "id": 9,
+      "message": "Hey!"
+    },
+    {
+      "id": 10,
+      "message": "Heyo"
+    },
+    {
+      "id": 11,
+      "message": "Hi"
+    },
+    {
+      "id": 12,
+      "message": "Hi how are you"
+    },
+    {
+      "id": 13,
+      "message": "Hey hows it going man"
+    },
+    {
+      "id": 14,
+      "message": "Hey how are you?"
+    },
+    {
+      "id": 15,
+      "message": "Hi!"
+    },
+    {
+      "id": 16,
+      "message": "I am 240 lbs, 6'3\", and 25 years old. I would like to be 190 lbs. "
+    },
+    {
+      "id": 17,
+      "message": "Yes I am!"
+    },
+    {
+      "id": 18,
+      "message": "6'3\", 240 pounds, and 25 years old"
+    },
+    {
+      "id": 19,
+      "message": "lose weight"
+    },
+    {
+      "id": 20,
+      "message": "Hi"
+    },
+    {
+      "id": 21,
+      "message": "I want a new meal plan"
+    },
+    {
+      "id": 22,
+      "message": "I am 25, 6'3\" tall, and 240 lbs. No restrictions, 3 meals a day, and no specific foods. "
+    },
+    {
+      "id": 23,
+      "message": "I want to lose two pounds per week"
     }
   ],
   "replies": [
@@ -47,5 +123,5 @@
   "profile": {
     "name": "typicode"
   },
-  "messageIdCounter": 5
+  "messageIdCounter": 24
 }
