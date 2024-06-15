@@ -5,9 +5,30 @@ function Chat() {
   const [userInput, setUserInput] = useState('');
   const messageEndRef = useRef(null);
 
-  const handleSendMessage = () => {
-    if (userInput.trim() !== '') { // Check for empty input before adding
+  const newMessage = async (userInput) => {
+    const res = await fetch('http://localhost:8000/api/message', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ message: userInput }), // Send as an object
+    });
+
+    // Optionally handle the response if needed
+    const data = await res.json();
+    return data;
+  };
+
+  const handleSendMessage = async () => {
+    if (userInput.trim() !== '') {
       setMessages([...messages, { user: true, message: userInput }]);
+
+      // Send message to backend
+      const response = await newMessage(userInput);
+
+      // Add backend response to messages
+      setMessages(prevMessages => [...prevMessages, { user: false, message: response.message }]);
+
       setUserInput(''); // Clear input field after sending
     }
   };
@@ -27,7 +48,6 @@ function Chat() {
   }, [messages]);
 
   return (
-    // Chat Window
     <div className="chat-window fixed top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%] w-full max-w-md h-96 bg-white rounded-lg shadow-md p-4 flex flex-col">
       <ul className="message-list flex-1 overflow-y-auto list-none pl-0 mb-4">
         {messages.map((message, index) => (
