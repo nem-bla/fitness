@@ -61,7 +61,7 @@ function Chat() {
         />
         <button
           onClick={handleSendMessage}
-          className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 focus:outline-none"
+          className="ml-2 px-3 py-2 rounded-lg bg-dark text-white hover:bg-blue-600 focus:outline-none"
         >
           Send
         </button>

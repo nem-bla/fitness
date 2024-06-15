@@ -11,7 +11,11 @@ export default {
       },
       gridTemplateColumns: {
         '70/30': '70% 28%',
-      }
+      },
+      colors: {
+        'dark': '#1b263b',
+        'darker': '#0d1b2a',
+      },
     },
   },
   plugins: [],

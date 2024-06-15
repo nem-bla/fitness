@@ -3,7 +3,7 @@ import Chat from '../components/Chat';
 
 const ChatPage = () => {
   return (
-    <div className="container mx-auto">
+    <div className="flex justify-center items-center h-screen bg-darker">
       <Chat />
     </div>
   );
