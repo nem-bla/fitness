@@ -113,6 +113,22 @@
     {
       "id": 23,
       "message": "I want to lose two pounds per week"
+    },
+    {
+      "id": 24,
+      "message": "hi"
+    },
+    {
+      "id": 25,
+      "message": "weight loss"
+    },
+    {
+      "id": 26,
+      "message": "weight loss"
+    },
+    {
+      "id": 27,
+      "message": "Hello how are you?"
     }
   ],
   "replies": [
@@ -123,5 +139,5 @@
   "profile": {
     "name": "typicode"
   },
-  "messageIdCounter": 24
+  "messageIdCounter": 28
 }

@@ -48,7 +48,7 @@ function Chat() {
   }, [messages]);
 
   return (
-    <div className="chat-window fixed top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%] w-full max-w-4xl h-[calc(100vh-100px)] bg-white rounded-lg shadow-md p-6 flex flex-col">
+    <div className="chat-window w-full max-w-4xl h-[calc(65vh)] bg-white rounded-lg shadow-md p-6 mt-0 flex flex-col">
       <ul className="message-list flex-1 overflow-y-auto list-none pl-0 mb-4">
         {messages.map((message, index) => (
           <li
